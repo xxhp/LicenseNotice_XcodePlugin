@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65DAB5981AC7FECA00E7E67D /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65DAB5971AC7FECA00E7E67D /* AppKit.framework */; };
+		65DAB59A1AC7FECA00E7E67D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65DAB5991AC7FECA00E7E67D /* Foundation.framework */; };
+		65DAB59F1AC7FECA00E7E67D /* LicenseNotice_XcodePlugin.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = 65DAB59E1AC7FECA00E7E67D /* LicenseNotice_XcodePlugin.xcscheme */; };
+		65DAB5A21AC7FECA00E7E67D /* LicenseNotice_XcodePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 65DAB5A11AC7FECA00E7E67D /* LicenseNotice_XcodePlugin.m */; };
+		65DAB5AB1AC7FEEC00E7E67D /* AddLicenseWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65DAB5A91AC7FEEC00E7E67D /* AddLicenseWindowController.m */; };
+		65DAB5AC1AC7FEEC00E7E67D /* AddLicenseWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65DAB5AA1AC7FEEC00E7E67D /* AddLicenseWindowController.xib */; };
+		65DAB5B01AC8004D00E7E67D /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 65DAB5AF1AC8004D00E7E67D /* README.md */; };
+		65DAB5B21AC8025B00E7E67D /* screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 65DAB5B11AC8025B00E7E67D /* screenshot.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		65DAB5941AC7FECA00E7E67D /* LicenseNotice_XcodePlugin.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LicenseNotice_XcodePlugin.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		65DAB5971AC7FECA00E7E67D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		65DAB5991AC7FECA00E7E67D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		65DAB59D1AC7FECA00E7E67D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65DAB59E1AC7FECA00E7E67D /* LicenseNotice_XcodePlugin.xcscheme */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = LicenseNotice_XcodePlugin.xcscheme; path = LicenseNotice_XcodePlugin.xcodeproj/xcshareddata/xcschemes/LicenseNotice_XcodePlugin.xcscheme; sourceTree = SOURCE_ROOT; };
+		65DAB5A01AC7FECA00E7E67D /* LicenseNotice_XcodePlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LicenseNotice_XcodePlugin.h; sourceTree = "<group>"; };
+		65DAB5A11AC7FECA00E7E67D /* LicenseNotice_XcodePlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LicenseNotice_XcodePlugin.m; sourceTree = "<group>"; };
+		65DAB5A81AC7FEEC00E7E67D /* AddLicenseWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddLicenseWindowController.h; sourceTree = "<group>"; };
+		65DAB5A91AC7FEEC00E7E67D /* AddLicenseWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddLicenseWindowController.m; sourceTree = "<group>"; };
+		65DAB5AA1AC7FEEC00E7E67D /* AddLicenseWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddLicenseWindowController.xib; sourceTree = "<group>"; };
+		65DAB5AF1AC8004D00E7E67D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		65DAB5B11AC8025B00E7E67D /* screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65DAB5921AC7FECA00E7E67D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65DAB5981AC7FECA00E7E67D /* AppKit.framework in Frameworks */,
+				65DAB59A1AC7FECA00E7E67D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		65DAB58B1AC7FECA00E7E67D = {
+			isa = PBXGroup;
+			children = (
+				65DAB5B11AC8025B00E7E67D /* screenshot.png */,
+				65DAB5AF1AC8004D00E7E67D /* README.md */,
+				65DAB59B1AC7FECA00E7E67D /* LicenseNotice_XcodePlugin */,
+				65DAB5961AC7FECA00E7E67D /* Frameworks */,
+				65DAB5951AC7FECA00E7E67D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		65DAB5951AC7FECA00E7E67D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65DAB5941AC7FECA00E7E67D /* LicenseNotice_XcodePlugin.xcplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65DAB5961AC7FECA00E7E67D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65DAB5971AC7FECA00E7E67D /* AppKit.framework */,
+				65DAB5991AC7FECA00E7E67D /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		65DAB59B1AC7FECA00E7E67D /* LicenseNotice_XcodePlugin */ = {
+			isa = PBXGroup;
+			children = (
+				65DAB5A81AC7FEEC00E7E67D /* AddLicenseWindowController.h */,
+				65DAB5A91AC7FEEC00E7E67D /* AddLicenseWindowController.m */,
+				65DAB5AA1AC7FEEC00E7E67D /* AddLicenseWindowController.xib */,
+				65DAB5A01AC7FECA00E7E67D /* LicenseNotice_XcodePlugin.h */,
+				65DAB5A11AC7FECA00E7E67D /* LicenseNotice_XcodePlugin.m */,
+				65DAB59C1AC7FECA00E7E67D /* Supporting Files */,
+			);
+			path = LicenseNotice_XcodePlugin;
+			sourceTree = "<group>";
+		};
+		65DAB59C1AC7FECA00E7E67D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				65DAB59D1AC7FECA00E7E67D /* Info.plist */,
+				65DAB59E1AC7FECA00E7E67D /* LicenseNotice_XcodePlugin.xcscheme */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65DAB5931AC7FECA00E7E67D /* LicenseNotice_XcodePlugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65DAB5A51AC7FECA00E7E67D /* Build configuration list for PBXNativeTarget "LicenseNotice_XcodePlugin" */;
+			buildPhases = (
+				65DAB5901AC7FECA00E7E67D /* Sources */,
+				65DAB5911AC7FECA00E7E67D /* Resources */,
+				65DAB5921AC7FECA00E7E67D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LicenseNotice_XcodePlugin;
+			productName = LicenseNotice_XcodePlugin;
+			productReference = 65DAB5941AC7FECA00E7E67D /* LicenseNotice_XcodePlugin.xcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65DAB58C1AC7FECA00E7E67D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = xiaohaibo;
+				TargetAttributes = {
+					65DAB5931AC7FECA00E7E67D = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = 65DAB58F1AC7FECA00E7E67D /* Build configuration list for PBXProject "LicenseNotice_XcodePlugin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 65DAB58B1AC7FECA00E7E67D;
+			productRefGroup = 65DAB5951AC7FECA00E7E67D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65DAB5931AC7FECA00E7E67D /* LicenseNotice_XcodePlugin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65DAB5911AC7FECA00E7E67D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65DAB59F1AC7FECA00E7E67D /* LicenseNotice_XcodePlugin.xcscheme in Resources */,
+				65DAB5B21AC8025B00E7E67D /* screenshot.png in Resources */,
+				65DAB5AC1AC7FEEC00E7E67D /* AddLicenseWindowController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65DAB5901AC7FECA00E7E67D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65DAB5B01AC8004D00E7E67D /* README.md in Sources */,
+				65DAB5A21AC7FECA00E7E67D /* LicenseNotice_XcodePlugin.m in Sources */,
+				65DAB5AB1AC7FEEC00E7E67D /* AddLicenseWindowController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		65DAB5A31AC7FECA00E7E67D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		65DAB5A41AC7FECA00E7E67D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+			};
+			name = Release;
+		};
+		65DAB5A61AC7FECA00E7E67D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				INFOPLIST_FILE = LicenseNotice_XcodePlugin/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Debug;
+		};
+		65DAB5A71AC7FECA00E7E67D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				INFOPLIST_FILE = LicenseNotice_XcodePlugin/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65DAB58F1AC7FECA00E7E67D /* Build configuration list for PBXProject "LicenseNotice_XcodePlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65DAB5A31AC7FECA00E7E67D /* Debug */,
+				65DAB5A41AC7FECA00E7E67D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65DAB5A51AC7FECA00E7E67D /* Build configuration list for PBXNativeTarget "LicenseNotice_XcodePlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65DAB5A61AC7FECA00E7E67D /* Debug */,
+				65DAB5A71AC7FECA00E7E67D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 65DAB58C1AC7FECA00E7E67D /* Project object */;
+}
